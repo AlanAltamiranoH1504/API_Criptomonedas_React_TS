@@ -8,6 +8,7 @@ export default {
         extend: {
             fontFamily: {
                 fjalla: ['"Fjalla One"', 'sans-serif'],
+                orbitron: ["Orbitron", "sans-serif"],
             }
         },
     },

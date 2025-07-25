@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --white: #fff;
+    --primary: #61ECBC;
+    --blac: #182339;
+}
+html {
+
+}
+body {
+    background-image: url("./bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
