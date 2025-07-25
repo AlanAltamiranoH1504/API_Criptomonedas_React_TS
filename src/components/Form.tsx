@@ -4,11 +4,11 @@ import {useForm} from "react-hook-form";
 import type {Cotizacion} from "../types";
 
 const Form = () => {
-    const {criptoMonedas} = useCriptosStore();
+    const {criptoMonedas, fetchData} = useCriptosStore();
     const {register, handleSubmit, formState: {errors}} = useForm<Cotizacion>();
 
     function fetchCotizacion(data: Cotizacion) {
-        console.log("Cortizando");
+        fetchData(data);
     }
 
     return (
